@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>الفطيرة الشامية | المنيو</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Tahoma, sans-serif;
+            background: #fffaf0;
+            color: #222;
+        }
+
+        /* HEADER */
+
+        header {
+            background: #8f1515;
+            color: white;
+            padding: 18px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #f5b400;
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 14px;
+        }
+
+
+        /* HERO */
+
+        .hero {
+            background: #a91d1d;
+            color: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        .hero h2 {
+            font-size: 45px;
+            color: #f5b400;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: auto;
+            font-size: 17px;
+            line-height: 1.8;
+        }
+
+
+        /* INFO */
+
+        .info {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .info-box {
+            background: white;
+            padding: 20px;
+            text-align: center;
+
+            border-radius: 12px;
+            border: 1px solid #ead9aa;
+
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .info-box h3 {
+            color: #8f1515;
+            margin-bottom: 8px;
+        }
+
+        .info-box p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+
+        /* MENU */
+
+        .menu {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            color: #8f1515;
+            font-size: 30px;
+            margin-bottom: 25px;
+
+            border-bottom: 3px solid #f5b400;
+            padding-bottom: 10px;
+        }
+
+
+        /* CATEGORY */
+
+        .category {
+            margin-bottom: 45px;
+        }
+
+        .category h3 {
+            color: #8f1515;
+            font-size: 24px;
+            margin-bottom: 18px;
+        }
+
+
+        /* ITEMS */
+
+        .items {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .item {
+            background: white;
+            padding: 18px;
+
+            border-radius: 12px;
+            border: 1px solid #ead9aa;
+
+            box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+
+            transition: 0.2s;
+        }
+
+        .item:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+
+        .item-name {
+            font-weight: bold;
+            font-size: 17px;
+            margin-bottom: 12px;
+        }
+
+        .prices {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 7px;
+        }
+
+        .price {
+            background: #fff4cf;
+            color: #8f1515;
+
+            padding: 5px 9px;
+
+            border-radius: 6px;
+
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            background: #1c1917;
+            color: white;
+
+            text-align: center;
+
+            padding: 35px 20px;
+        }
+
+        footer h2 {
+            color: #f5b400;
+            margin-bottom: 8px;
+        }
+
+        footer p {
+            color: #bbb;
+            font-size: 13px;
+            margin: 5px;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 800px) {
+
+            .info {
+                grid-template-columns: 1fr;
+            }
+
+            .items {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero h2 {
+                font-size: 35px;
+            }
+
+        }
+
+
+        @media (max-width: 500px) {
+
+            .items {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            .hero {
+                padding: 40px 15px;
+            }
+
+            .hero h2 {
+                font-size: 30px;
+            }
+
+            .menu {
+                padding: 0 15px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>الفطيرة الشامية</h1>
+
+        <p>
+            ليس لدينا فروع أخرى
+        </p>
+
+    </header>
+
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <h2>منيو الفطيرة الشامية</h2>
+
+        <p>
+            أشهى الفطائر الشامية والمشلتت والبيتزا
+            والمعجنات المحضرة بأجود المكونات.
+        </p>
+
+    </section>
+
+
+
+    <!-- RESTAURANT INFORMATION -->
+
+    <section class="info">
+
+
+        <div class="info-box">
+
+            <h3>📍 العنوان</h3>
+
+            <p>
+                الكويت - الفروانية<br>
+                قطعة 5 - شارع 105<br>
+                بالقرب من مستوصف الغزالي
+            </p>
+
+        </div>
+
+
+
+        <div class="info-box">
+
+            <h3>☎ التواصل</h3>
+
+            <p>
+                24766555<br>
+                99344834<br>
+                99344840
+            </p>
+
+        </div>
+
+
+
+        <div class="info-box">
+
+            <h3>🕐 مواعيد العمل</h3>
+
+            <p>
+                خدمة متواصلة<br>
+                على مدار اليوم
+            </p>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- MENU -->
+
+    <main class="menu">
+
+        <h2 class="section-title">
+            المنيو
+        </h2>
+
+
+
+        <!-- PIZZA -->
+
+        <section class="category">
+
+            <h3>🍕 البيتزا</h3>
+
+
+            <div class="items">
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا الفطيرة الشامية
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا خضار
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا بيبروني
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا دجاج
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا نقانق
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا مارقريتا
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا لحم
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        بيتزا مرتديلا
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- MESHALTET -->
+
+        <section class="category">
+
+            <h3>🥐 المشلتت</h3>
+
+
+            <div class="items">
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        مشلتت الفطيرة الشامية
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        مشلتت قشطة وعسل
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        مشلتت كرافت
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        مشلتت لبنة
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        مشلتت حلوم
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        مشلتت جبنة فيتا
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CHEESE -->
+
+        <section class="category">
+
+            <h3>🧀 الأجبان</h3>
+
+
+            <div class="items">
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        عكاوي سادة
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.300 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        عكاوي كامل
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.350 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        كرافت سادة
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.350 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        كرافت كامل
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.400 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        حلوم سادة
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.350 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        موزريلا
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.400 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        كوكتيل أجبان
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.500 د.ك</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SHAMI -->
+
+        <section class="category">
+
+            <h3>🥙 شاميات فطائر</h3>
+
+
+            <div class="items">
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        شامية حلوم
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.750 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        شامية جبن
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.750 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        شامية لبنة
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.750 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        شامية سبانخ جبن
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.750 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        شامية نقانق
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.750 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        شامية مشكل
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.750 د.ك</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- VEGETABLES -->
+
+        <section class="category">
+
+            <h3>🌿 خضراوات</h3>
+
+
+            <div class="items">
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        زعتر
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.200 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        زعتر ملكي
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.350 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        زعتر فلسطيني
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.400 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        سبانخ
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.250 د.ك</span>
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        فلافل
+                    </div>
+
+                    <div class="prices">
+                        <span class="price">0.250 د.ك</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SWEETS -->
+
+        <section class="category">
+
+            <h3>🍯 السكريات</h3>
+
+
+            <div class="items">
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        سكرية الفطيرة الشامية
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        سكرية نوتيلا
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.500 د.ك</span>
+                        <span class="price">وسط 2.000 د.ك</span>
+                        <span class="price">كبير 2.500 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="item">
+
+                    <div class="item-name">
+                        سكرية سادة
+                    </div>
+
+                    <div class="prices">
+
+                        <span class="price">صغير 1.000 د.ك</span>
+                        <span class="price">وسط 1.500 د.ك</span>
+                        <span class="price">كبير 2.000 د.ك</span>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>الفطيرة الشامية</h2>
+
+        <p>
+            📍 الفروانية - الكويت
+        </p>
+
+        <p>
+            ☎ 24766555 | 99344834 | 99344840
+        </p>
+
+        <p>
+            ليس لدينا فروع أخرى
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
